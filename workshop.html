@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop on JS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aliceblue;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            /* align-items: center; */
+        }
+        .container{
+            background-color: white;
+            width: 50%;
+            text-align: center;
+            height: 300px;
+            
+        }
+        #name{
+            /* width: 100vw; */
+            height: 5vh;
+        }
+        #randomname{
+            /* color: orange; */
+            background-color: orange;
+            font-size: medium;
+            /* width: 25vw; */
+            height: 7vh;
+            
+        }
+        #start{
+            background-color: lightblue;
+            font-size: medium;
+            width: 40vw;
+            height: 5vh;
+        }
+        #highscores{
+            background-color: lightblue;
+            font-size: medium;
+            width: 40vw;
+            height: 5vh;
+
+        }
+        #Starting , #Last{
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Advanced Javascript Quiz</h1>
+        <div>
+            <input type="text"  id="name"  placeholder="Enter Your Name"> <br><br>
+            <button id="randomname">Random Name</button> <br><br>
+            <button id="start" >Start Quiz</button><br><br>
+            <button id="highscores" >View High Scores</button>
+        </div>
+
+
+        <div id="Starting"  >
+            <div id="time">Time:120</div>
+            <div id="allquestions">Question 1 to 5</div>
+            <div id="questions"></div>
+            <div id="answers"></div>
+            <div id="result"></div>
+              <div id="nav">
+                 <button id="previous" class="btn" style="display: none;">Previous</button>
+                 <button id="save" class="btn">Save&Next</button>
+               <div>
+        </div>
+
+
+        <!-- <div id="Last">
+            <h2>Quiz Complleted</h2>
+            <p id="final"> </p>
+            <button id="save" class="btn">Save Score</button>
+            <button id="restart" class="btn">Restart Quiz</button>
+        </div>
+        <div id="high scores">
+            <!-- <p>High Scores</p> -->
+        </div>  
+    </div>
+
+    <script>
+        const quiz[
+            {
+                question: "What would be the result of 3+2+”7″?"
+                answer: ["36","24","57","21"]
+                correct:57
+            }
+        ]
+    </script>
+</body>
+</html>
